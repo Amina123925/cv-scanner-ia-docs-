@@ -1,4 +1,4 @@
-site_name: CV Scanner IA
+﻿site_name: CV Scanner IA
 site_description: Documentation technique professionnelle du projet CV Scanner IA, du backend IA jusqu'a l'interface Next.js.
 site_author: Ismail
 docs_dir: docs
@@ -40,8 +40,6 @@ nav:
       - Matching Candidat -> Offres: matching-jobs-for-candidate.md
   - Exploitation:
       - Demonstration: demo.md
-      - Publication Read The Docs: read-the-docs.md
-      - Depannage: troubleshooting.md
 
 markdown_extensions:
   - admonition
@@ -51,3 +49,4 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+
