@@ -1,46 +1,40 @@
 # Demonstration De L'Application
 
-Cette page sert de support pour une video de demonstration produit.
+Cette page presente une demonstration video du fonctionnement de CV Scanner IA, depuis le tableau de bord jusqu'aux workflows de matching.
 
-## Emplacement De La Video
+## Video De Demonstration
 
-Place la video ici :
+La demonstration complete est disponible sur Loom :
 
-```text
-docs/assets/video/demo-cv-scanner.mp4
-```
+<p>
+  <a class="demo-button" href="https://www.loom.com/share/457c7b0cadee4d90a12a7a2a2219068e" target="_blank" rel="noopener">
+    Ouvrir la video de demonstration
+  </a>
+</p>
 
-Puis la documentation l'affichera avec ce bloc :
+## Scenario Presente
 
-<video controls width="100%" poster="../assets/images/demo-cover.svg">
-  <source src="../assets/video/demo-cv-scanner.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas la lecture video.
-</video>
+La demonstration illustre le parcours principal de l'application :
 
-## Scenario Recommande
+1. consultation du dashboard et des indicateurs globaux ;
+2. recherche et consultation d'un candidat ;
+3. affichage des competences, langages et UUID ;
+4. ajout d'un CV candidat depuis un fichier ;
+5. recherche et consultation d'une offre ;
+6. lancement d'un matching offre vers candidats ;
+7. lecture des scores et dimensions de matching ;
+8. utilisation du reranking ;
+9. analyse LLM d'un resultat ;
+10. archivage fonctionnel d'un element.
 
-Durée cible : 4 a 6 minutes.
+## Points A Observer
 
-1. Ouvrir le dashboard et presenter les KPIs.
-2. Aller sur Candidats et rechercher un profil.
-3. Montrer le detail, les competences et l'UUID.
-4. Uploader un CV candidat.
-5. Aller sur Offres et rechercher une offre.
-6. Lancer un matching Offre -> Candidats.
-7. Montrer les modes de recherche.
-8. Appliquer le reranking.
-9. Demander l'explication LLM.
-10. Montrer l'archivage logique.
+Pendant la video, les elements importants sont :
 
-## Script Court
-
-> Cette interface Next.js permet a un recruteur de consulter une base de CV et d'offres, d'ajouter de nouveaux documents, puis de lancer un matching semantique. Les resultats sont scores, rerankes et explicables par LLM. L'application garde une logique entreprise avec archivage au lieu de suppression definitive.
-
-## Outil D'Enregistrement
-
-Tu peux utiliser :
-
-- Windows Game Bar ;
-- OBS Studio ;
-- Clipchamp ;
-- PowerPoint screen recording.
+- la fluidite de navigation entre les pages ;
+- la centralisation des donnees candidat et offre ;
+- l'appel aux endpoints FastAPI depuis l'interface ;
+- la disponibilite des donnees apres upload ;
+- la lisibilite des scores de matching ;
+- la presence des UUID pour le diagnostic technique ;
+- l'archivage au lieu de la suppression definitive par defaut.

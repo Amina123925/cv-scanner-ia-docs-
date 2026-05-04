@@ -28,3 +28,19 @@
 .rst-content footer p {
   display: none;
 }
+
+.demo-button {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 4px;
+  background: #0b4ea2;
+  color: #ffffff !important;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(11, 78, 162, 0.18);
+}
+
+.demo-button:hover {
+  background: #083b7a;
+  color: #ffffff !important;
+}
